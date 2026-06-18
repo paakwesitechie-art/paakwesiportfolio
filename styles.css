@@ -109,23 +109,21 @@ body {
   animation:
     typing 5s steps(27) 1 forwards,
     blink .6s step-end 8;
-}
-
-
-
-@keyframes typing {
-  0% {
+   }
+  
+   @keyframes typing {
+  from {
     width: 0;
   }
 
-  50% {
+  to {
     width: 27ch;
   }
-
-  100% {
-    width: 0;
-  }
 }
+
+
+
+
 
 @keyframes blink {
   50% {
