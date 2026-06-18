@@ -107,8 +107,8 @@ body {
   border-right: 3px solid white;
 
   animation:
-    typing 5s steps(27) infinite,
-    blink .6s infinite;
+    typing 5s steps(27) 1,
+    blink .6s 1;
 }
 
 @keyframes typing {
