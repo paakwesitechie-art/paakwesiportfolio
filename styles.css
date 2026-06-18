@@ -108,8 +108,10 @@ body {
 
   animation:
     typing 5s steps(27) 1 forwards,
-    blink .6s 1 forwards;
+    blink .6s step-end 8;
 }
+
+
 
 @keyframes typing {
   0% {
