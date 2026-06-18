@@ -99,7 +99,7 @@ body {
 
 .typing {
   margin: 20px auto;
-  width: 27ch;
+  width: 30ch;
 
   overflow: hidden;
   white-space: nowrap;
